@@ -2,14 +2,14 @@
 
 general.project = "Project name"
 
-paths.projectDir = "./propel"
-paths.schemaDir = "./propel/schema"
-paths.outputDir = "./propel"
-paths.phpDir = "./"
-paths.migrationDir = "./propel/generated-migrations"
-paths.phpConfDir = "./propel%/generated-conf"
-paths.sqlDir = "./propel/generated-sql"
-paths.composerDir = "./"
+paths.projectDir = "../propel"
+paths.schemaDir = "../propel/schema"
+paths.outputDir = "../propel"
+paths.phpDir = "../"
+paths.migrationDir = "../propel/generated-migrations"
+paths.phpConfDir = "../propel/generated-conf"
+paths.sqlDir = "../propel/generated-sql"
+paths.composerDir = "../"
 
 database.connections.dbconn.adapter    = "mysql"
 database.connections.dbconn.classname  = "Propel\Runtime\Connection\ProfilerConnectionWrapper"
