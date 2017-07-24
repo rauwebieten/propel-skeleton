@@ -4,3 +4,4 @@ propel/generated-migrations
 src/Orm/*/Base
 src/Orm/*/Map
 vendor
+propel/config/propel.ini

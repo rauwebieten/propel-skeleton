@@ -1,5 +1,12 @@
 # Project skeleton with Propel & database fixtures
 
+## Config file
+
+propel.ini should NOT be in VCS.  
+cp propel.ini.dist to propel.ini and enter your db credentials.
+
+## Build commands
+
 ```
 propel config:convert --config-dir propel/config
 
