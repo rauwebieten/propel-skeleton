@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="dbconn" defaultIdMethod="native"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/propelorm/Propel/master/generator/resources/xsd/database.xsd"
+          package="src.Orm.Auth" namespace="Src\Orm\Auth">
+
+    <table name="auth_user" phpName="User">
+        <column name="id" type="INTEGER" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="name" type="VARCHAR" size="100" required="true" primaryString="true" />
+        <column name="email" type="VARCHAR" size="100" required="true" />
+        <behavior name="timestampable"/>
+    </table>
+
+</database>

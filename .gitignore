@@ -1,0 +1,6 @@
+propel/generated-conf
+propel/generated-sql
+propel/generated-migrations
+src/Orm/*/Base
+src/Orm/*/Map
+vendor

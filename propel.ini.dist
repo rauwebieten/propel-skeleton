@@ -1,0 +1,20 @@
+[propel]
+
+general.project = "Project name"
+
+paths.projectDir = "./propel"
+paths.schemaDir = "./propel/schema"
+paths.outputDir = "./propel"
+paths.phpDir = "./"
+paths.migrationDir = "./propel/generated-migrations"
+paths.phpConfDir = "./propel%/generated-conf"
+paths.sqlDir = "./propel/generated-sql"
+paths.composerDir = "./"
+
+database.connections.dbconn.adapter    = "mysql"
+database.connections.dbconn.classname  = "Propel\Runtime\Connection\ProfilerConnectionWrapper"
+database.connections.dbconn.dsn        = "mysql:host=localhost;dbname=xxx;charset=utf8"
+database.connections.dbconn.user       = "xxx"
+database.connections.dbconn.password   = "xxx"
+database.connections.dbconn.settings.charset   = "utf8"
+database.connections.dbconn.settings.queries.utf8 = "SET NAMES utf8 COLLATE utf8_unicode_ci, COLLATION_CONNECTION = utf8_unicode_ci, COLLATION_DATABASE = utf8_unicode_ci, COLLATION_SERVER = utf8_unicode_ci"

@@ -1,0 +1,9 @@
+"\\Src\\Orm\\Auth\\User":
+  1:
+    PK: 1
+    Name: Peter
+    Email: peter@kinamo.be
+  2:
+    PK: 2
+    Name: Dominique
+    Email: dominique@kinamo.be
